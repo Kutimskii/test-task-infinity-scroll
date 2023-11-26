@@ -4,7 +4,7 @@
   padding: 20px;
   border: 1px solid black;
   border-radius: 10px;
-  background-color: rgb(226, 226, 227);
+  background-color: rgb(114, 114, 240);
   margin: 20px auto;
 }
 
@@ -15,4 +15,7 @@
 
 .title {
   font-size: 18px;
+}
+.btn_view:hover{
+  cursor: pointer;
 }
