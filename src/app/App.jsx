@@ -5,7 +5,7 @@ import PostPage from '../pages/PostPage';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route path="/" element={<HomePage/>} />
       <Route path="/:id" element={<PostPage />} />
     </Routes>
 

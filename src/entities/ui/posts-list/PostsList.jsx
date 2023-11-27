@@ -9,7 +9,7 @@ export default function PostsList() {
   const { data = [] } = useGetPostsQuery({start: postStart});
 
   const { ref: lastCard, inView: inViewLastCard } = useInView({
-    threshold: 0.6,
+    threshold: 0.5,
   });
   const { ref: firstCard, inView: inViewFirstCard } = useInView({
     threshold: 0.5,
@@ -42,7 +42,7 @@ export default function PostsList() {
             </li>
             }
             return <li key={post.id}>
-              <PostCard post={post} />
+              <PostCard post={post} /> 
             </li>
         })}
       </ul>
